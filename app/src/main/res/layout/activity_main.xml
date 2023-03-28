@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Título-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sql"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_weight="2">
+
+    </TextView>
+    <!--Fin Título-->
+
+    <!--Cédula-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Cc"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_weight="8"
+        android:inputType="text"
+
+        android:id="@+id/cc">
+
+    </EditText>
+
+    <!--Fin Cédula-->
+
+    <!--Nombre-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_weight="8"
+        android:inputType="text"
+
+        android:id="@+id/nom">
+
+    </EditText>
+
+    <!--Fin Nombre-->
+
+    <!--Teléfono-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tel"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_weight="8"
+        android:inputType="text"
+
+        android:id="@+id/tel">
+
+    </EditText>
+
+    <!--Fin Teléfono-->
+
+
+    <!--Botón-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/insert"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:layout_weight="5"
+
+            android:id="@+id/btnInser">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/query"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:layout_weight="5"
+
+            android:id="@+id/btnQuer">
+
+        </Button>
+
+    </LinearLayout>
+
+    <!--Fin Botón-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+
+    </LinearLayout>
+
+</LinearLayout>

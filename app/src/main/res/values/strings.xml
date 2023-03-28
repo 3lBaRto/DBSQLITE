@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SqLite</string>
+    <string name="Sql">SQLITE</string>
+    <string name="Cc">Inserte su cédula aquí</string>
+    <string name="nom">Inserte su nombre aquí</string>
+    <string name="tel">Inserte su teléfono aquí</string>
+    <string name="insert">Insertar</string>
+    <string name="query">Consultar</string>
+</resources>
